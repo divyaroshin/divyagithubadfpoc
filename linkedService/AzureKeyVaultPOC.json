@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultPOC",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://DivyaKeyVaultADF.vault.azure.net/"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_o3o",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DivyaSQLServerLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[dbo].[EmployeeDetails]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

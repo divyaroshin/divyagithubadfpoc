@@ -1,0 +1,28 @@
+{
+	"name": "SourceDataset_i0o",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DivyaSQLServerLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "FirshName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			},
+			{
+				"name": "EmployeeID",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[EmployeeDetails]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
